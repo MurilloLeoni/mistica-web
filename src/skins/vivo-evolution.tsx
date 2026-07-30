@@ -745,7 +745,7 @@ export const getVivoEvolutionSkin: GetKnownSkin = () => {
             link: {weight: 'medium'},
             loadingScreenTitle: {lineHeight: {desktop: 28, mobile: 24}, size: {desktop: 24, mobile: 18}},
             navigationBar: {weight: 'regular'},
-            rowTitle: {weight: 'regular'},
+            rowTitle: {weight: 'medium'},
             stepperStepLabel: {lineHeight: {desktop: 24, mobile: 20}, size: {desktop: 16, mobile: 14}},
             tabsLabel: {
                 lineHeight: {desktop: 24, mobile: 24},
@@ -824,6 +824,7 @@ export const getVivoEvolutionSkin: GetKnownSkin = () => {
                 left: {mobile: 16, desktop: 40},
                 right: {mobile: 16, desktop: 40},
             },
+            boxedDefaultPadding: {left: {mobile: 16, desktop: 24}, right: {mobile: 16, desktop: 24}},
             responsiveLayoutMargin: {mobile: 8, desktop: 48},
         },
     };
