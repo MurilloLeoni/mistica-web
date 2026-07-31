@@ -287,7 +287,7 @@ export const Content = ({
                 )}
             </div>
             {hasDivider && !hideDivider && (
-                <div className={styles.rowDivider}>
+                <div className={styles.rowDivider} data-testid="row-divider">
                     <Divider />
                 </div>
             )}
@@ -646,7 +646,11 @@ const RowContent = React.forwardRef<TouchableElement, RowContentProps>((props, r
                 {control}
             </div>
             {hasDivider && (
-                <div className={styles.rowDividerDualAction} style={{paddingLeft: dividerOffset}}>
+                <div
+                    className={styles.rowDividerDualAction}
+                    data-testid="row-divider-dual-action"
+                    style={{paddingLeft: dividerOffset}}
+                >
                     <Divider />
                 </div>
             )}
