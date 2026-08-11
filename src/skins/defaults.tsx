@@ -74,6 +74,7 @@ export const defaultBorderRadiiConfig: BorderRadiiConfig = {
     mediaSmall: '8px',
     chip: '16px',
     tag: '24px',
+    snackbar: '16px',
 };
 
 export const defaultThemeVariantsConfig: ThemeVariantsConfig = {
